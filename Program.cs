@@ -29,7 +29,7 @@ namespace talBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string botToken = "NDExODQ3Njc1Njc2MTk2ODc2.DWCCzg.wsY4y1H9sVjuHa0uj_lGDjunxEU";
+            string botToken = "";
 
             _client.Log += Log;
 
